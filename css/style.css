@@ -1,0 +1,217 @@
+/* 全体デザイン */
+body{
+  background-color: #6a6a6a;
+}
+
+/* タイトルデザイン */
+h1{
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+  font-family: "arial black", "";
+  color: white;
+}
+
+/* リストデザイン */
+.addlist{
+  text-align: center;
+
+}
+
+  /* メモデザイン */
+  .label_memo {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 36px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-family: Meiryo;
+  }
+
+  #add_text{
+    position: relative;
+    padding: 0 10px;
+    width: 300px;
+    height: 36px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: white;
+    font-family: "Meiryo";
+  }
+  /* カレンダーデザイン */
+  .label_date {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 36px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    font-family: Meiryo;
+  }
+  #add_date{
+    position: relative;
+    padding: 0 10px;
+    width: 150px;
+    height: 36px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: white;
+  }
+
+  /* 追加ボタンデザイン */
+  .label_btn {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+    border: 2px solid #d3E17e;
+    background: #d3E17e;
+    border-radius: 15px;
+  }
+
+  #add_btn{  
+    position: relative;
+    padding: 0 10px;
+    width: 50px;
+    height: 36px;
+    border: 0;
+    background:transparent;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Meiryo;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+
+  }
+
+  .label_btn:hover{
+    display: inline-block;
+    width: 50px;
+    height: 36px;
+    border: 2px solid #ccc;
+    background: #ccc;
+    border-radius: 15px;
+    font-family: Meiryo;
+    font-weight: bold;
+  }
+
+    /* 削除ボタンデザイン */
+    .label_btn2 {
+      position: relative;
+      display: inline-block;
+      width: 50px;
+      height: 36px;
+      border: 2px solid #ccc;
+      border-radius: 15px;
+    }
+  
+    #delete_btn{  
+      position: relative;
+      padding: 0 10px;
+      width: 50px;
+      height: 36px;
+      border: 0;
+      background:transparent;
+      box-sizing: border-box;
+      font-size: 14px;
+      font-family: Meiryo;
+      font-weight: bold;
+      color:white;
+      text-align: center;
+  
+    }
+  
+    .label_btn2:hover{
+      display: inline-block;
+      width: 50px;
+      height: 36px;
+      border: 2px solid red;
+      background: red;
+      border-radius: 15px;
+      font-family: Meiryo;
+      font-weight: bold;
+    }
+
+
+/* リスト部分のレイアウト */
+  #todo_all{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+  }
+
+  .lists{
+    background-color:white;
+    width: 500px;
+    height: 500px;  
+
+  }
+
+  #todo{
+    margin-right: 30px;
+
+  }
+
+  #done{
+
+  }
+
+  h2{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    font-family: "arial black";
+    color: black;
+  }
+
+  /* リスト中身のレイアウト */
+  .items_each{
+    width: 400px;
+    margin:auto;
+    padding-bottom: 15px;
+  }
+
+  .todo_each {
+    font-size: 24px;
+    padding-left: 30px;
+    width: 250px;
+    text-align: left;
+}
+
+  .date_each{
+    font-size: 16px;
+    text-align: left;
+    width:100px
+
+  }
+
+  .delete_each{
+    padding-left: 15px;
+    font-size: 24px;
+  }
+
+  .update_each{
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+  .todo_done {
+    font-size: 24px;
+    padding-left: 30px;
+    width: 250px;
+    text-align: left;
+}
+
+  .date_done{
+    font-size: 16px;
+    text-align: left;
+    width:100px
+
+  }
+

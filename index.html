@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO DO memo </title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/cf508f4499.js" crossorigin="anonymous"></script>
+
+  </head>
+
+<body>
+<!-- タイトル -->
+<header>
+  <h1><i class="fas fa-frog" style="color:#d3E17e;"></i> To Do List</h1>
+</header>
+
+<!-- リスト入力部分 -->
+<form name="list" class="addlist">
+    <label class="label_memo">
+      <input id="add_text" type="text" placeholder="To Doを入力してください">
+    </label>
+    <label class="label_date">
+      <input type="date" id="add_date">
+    </label>
+    <label class="label_btn">
+      <button id="add_btn">追加</button>
+    </label>
+    <label class="label_btn2">
+      <button id="delete_btn">削除</button>
+    </label>
+
+  </form>
+
+<!-- リスト表示部分 -->
+<div id="todo_all">
+    <ul class="lists" id="todo">
+        <h2><i class="fas fa-list-ul"></i>  To Do</h2>
+        <table id=todoList></table>
+    </ul>
+    <ul class="lists" id="done">
+        <h2><i class="far fa-check-square"></i>  Done</h2>
+        <table id=doneList></table>
+    </ul>
+</div>
+
+
+
+   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <script src="js/test.js"></script>
+</body>
+</html>
